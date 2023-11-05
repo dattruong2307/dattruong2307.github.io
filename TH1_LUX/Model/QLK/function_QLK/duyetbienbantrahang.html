@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Duyệt biên bản trả hàng</title>
+    <!-- Link to Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="/style.css">
+  </head>
+
+  <body>
+    <header>
+      <div class="text-container">
+        <div class="left-text">Chức vụ: Quản lý kho</div>
+        <div class="right-text"><a href="/TH1_LUX/index.php">Đăng xuất</a></div>
+      </div>
+    </header>
+    <nav class="navbar navbar-expand-lg navbar-light" style="background-color: #6aa221;">
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <span class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item active">
+            <a class="nav-link" href="../QLK.html"
+              >Home <span class="sr-only">(current)</span></a
+            >
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./bienbankiemke.html">Lập biên bản kiểm kê</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./duyetbienbantrahang.html">Duyệt biên bản trả hàng</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Quản lý
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+              <a class="dropdown-item" href="./qly_ds_kho.html">Quản lý danh sách kho</a>
+              <a class="dropdown-item" href="./qly_nvl.html">Quản lý thông tin nguyên vật liệu</a>
+              <a class="dropdown-item" href="./qly_tp.html">Quản lý thông tin thành phẩm</a>
+            </div>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Điều phối
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+              <a class="dropdown-item" href="./dieuphoi_nhap.html">Điều phối nhập kho</a>
+              <a class="dropdown-item" href="./dieuphoi_xuat.html">Điều phối xuất kho</a>
+            </div>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Theo dõi
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+              <a class="dropdown-item" href="./theodoixuat_nvl.html">Phiếu yêu cầu xuất kho nguyên vật liệu</a>
+              <a class="dropdown-item" href="./theodoinhap_tp.html">Phiếu yêu cầu nhập kho thành phẩm</a>
+              <a class="dropdown-item" href="./theodoixuat_tp.html">Phiếu yêu cầu xuất kho thành phẩm</a>
+              <a class="dropdown-item" href="./theodoi_tratp.html">Phiếu trả thành phẩm lỗi</a>
+            </div>
+          </li>
+        </ul>
+      </span>
+      <span>
+        <form action="#" method="get">
+            <div class="input-group">
+                <input type="text" class="form-control" placeholder="Tìm kiếm">
+                <button type="button" class="btn btn-secondary">Tìm kiếm</button>
+            </div>
+        </form>
+      </span>
+    </nav>
+    <main>Nội dung</main>
+
+    <!-- Link to Bootstrap JS (Popper.js and jQuery are required for Bootstrap) -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  </body>
+</html>
